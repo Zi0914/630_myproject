@@ -1,0 +1,78 @@
+@import url("https://use.typekit.net/jmk3xov.css");
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+body {
+  margin: 0;
+}
+
+:root {
+  --pink-bg: rgba(255, 243, 255, 0.5);
+  --spacing: 350px;
+
+  font-family: robot, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+main {
+  width: 100vw;
+  color: rgb(134, 93, 255);
+  opacity: 100;
+  z-index: 99;
+  position: absolute;
+  width: 100%;
+  margin: 0px auto;
+  padding: 120px 0px;
+  
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+h1, h2, h3, blockquote {
+  font-family: robot, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+header {
+  background: var(--pink-bg);
+  grid-column: 2 / span 5;
+  font-size: 2.5rem;
+  padding: 1rem;
+  line-height: 1.3;
+  margin-bottom: 20px;
+  border-radius: 50px
+}
+
+blockquote{
+background: var(--pink-bg);
+grid-column: 2 / 7;
+padding: 1rem;
+font-size: 1.25rem;
+text-align: center;
+line-height: 1.5rem;
+margin-bottom: 70px;
+border-radius: 300px;
+}
+
+section {
+  background: var(--pink-bg);
+  grid-column: 2 / 7;
+  padding: 2rem;
+  font-size: 1.25rem;
+  line-height: 1.6;
+  margin-bottom: 70px;
+  border-radius: 30px;
+}
+
